@@ -1,6 +1,6 @@
 //Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1
 
-// Function to calculate the number of steps to reach 1 using the Collatz Conjecture
+
 
 
 
@@ -32,7 +32,7 @@ rl.question('Enter a number greater than 1: ', (num) => {
 
 });
 
-
+// Function to calculate the number of steps to reach 1 using the Collatz Conjecture
 function collatzConjecture(n) {
     let steps = 0;
     while (n > 1) {
